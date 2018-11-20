@@ -1,5 +1,5 @@
 AWSTemplateFormatVersion: 2010-09-09
-Description:  This will create VPC Network Stack
+Description:  This will create VPC Network Stacks
 Metadata: {}
 
 Parameters:
@@ -176,4 +176,4 @@ Outputs:
     Description:  'The public IP address of the EC2 Instance.'
     Value:  !GetAtt WebServer.PublicDnsName
     Export:
-      Name: !Sub  '${AWS::StackName}-Public-DNS-Address'  
+      Name: !Sub  '${AWS::StackName}-Public-DNS-Address'
