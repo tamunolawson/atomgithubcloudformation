@@ -1,5 +1,5 @@
 AWSTemplateFormatVersion: 2010-09-09
-Description:  This will create VPC Network Stacks
+Description:  This will create VPC Network Stack
 Metadata: {}
 
 Parameters:
